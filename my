@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liu Yu Sheng - Personal Introduction</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Name -->
+    <h1 class="text-4xl font-bold text-center mt-10">Liu Yu Sheng</h1>
+
+    <!-- Self Introduction -->
+    <p class="text-center text-lg font-light mt-5 mx-4">
+        Hey there! I'm Liu Yu Sheng, a freshman at Chang Gung University, double majoring in Computer Science and Industrial Design, and part of the Honors Program. I'm passionate about design, programming, and sports. Right now, I'm chasing my dreams, always working on my front-end development skills and sports training, with the aim of making it big in both areas. I'm always pushing myself in track and field, striving to become a well-rounded student-athlete at the top of my game.
+    </p>
+
+    <!-- Personal Photo -->
+    <div class="flex justify-center mt-10">
+        <img src="https://drive.google.com/file/d/1rXcX8DhVlvMQtfzRU9dtZ0uojyyBzAQh/view?usp=sharing" " alt="Liu Yu Sheng's personal photo" class="w-40 h-40 rounded-full border-4 border-gray-300">
+    </div>
+
+    <!-- Age, Experience, Hobbies, Skills -->
+    <div class="max-w-3xl mx-auto mt-10">
+        <table class="min-w-full bg-white mt-5 shadow-md rounded-lg">
+            <thead>
+                <tr>
+                    <th class="py-2 px-4 border-b-2 border-gray-300 text-left">Item</th>
+                    <th class="py-2 px-4 border-b-2 border-gray-300 text-left">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="py-2 px-4 border-b border-gray-300">Age</td>
+                    <td class="py-2 px-4 border-b border-gray-300">18 years old</td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b border-gray-300">Experience</td>
+                    <td class="py-2 px-4 border-b border-gray-300">Sprinter, Front-end Web Development Intern, Assistant Designer</td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b border-gray-300">Hobbies</td>
+                    <td class="py-2 px-4 border-b border-gray-300">Sketching, Design, Weightlifting, Track and Field</td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b border-gray-300">Skills</td>
+                    <td class="py-2 px-4 border-b border-gray-300">Sports Training, Perspective Drawing, Python Development</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Contact Information -->
+    <h2 class="text-2xl font-bold text-center mt-10">Contact Information</h2>
+    <ul class="list-none mt-5 space-y-2 text-center">
+        <li class="text-gray-700"><strong>Phone:</strong> 0906-980-317</li>
+        <li class="text-gray-700"><strong>Email:</strong> qwe941107@gmail.com</li>
+        <li class="text-gray-700"><strong>Address:</strong> No. 259, Wenhua 1st Road, Guishan District, Taoyuan City, Taiwan</li>
+    </ul>
+
+    <!-- Contact Form -->
+    <h2 class="text-2xl font-bold text-center mt-10">Contact Me</h2>
+    <form class="max-w-md mx-auto mt-10 p-5 bg-white shadow-md rounded-lg">
+        <label for="name" class="block text-sm font-bold mb-2">Name:</label>
+        <input type="text" id="name" name="name" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+
+        <label for="email" class="block text-sm font-bold mb-2">Email:</label>
+        <input type="email" id="email" name="email" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+
+        <label for="message" class="block text-sm font-bold mb-2">Message:</label>
+        <textarea id="message" name="message" rows="4" class="w-full p-2 mb-4 border border-gray-300 rounded" required></textarea>
+
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+    </form>
+
+    <!-- Embedded Google Map Link -->
+    <h2 class="text-2xl font-bold text-center mt-10">My Location</h2>
+    <div class="flex justify-center mt-5">
+        <iframe src="https://g.co/kgs/RAJ3EWF" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-lg shadow-md"></iframe>
+    </div>
+</body>
+</html>
